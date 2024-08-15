@@ -1,0 +1,50 @@
+.sectionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+
+  }
+  
+  .leftSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .grayButton,
+  .grayDropdown {
+    padding: 15px;
+    color: gray;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .grayButton {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .dateIcon{
+    size: 250%;
+  }
+  
+  .clearButton {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 20px;
+    color: black;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  .clearButton:hover {
+    background-color: #eee;
+  }

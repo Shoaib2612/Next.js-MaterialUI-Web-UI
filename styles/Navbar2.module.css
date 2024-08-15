@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    margin-top: 0;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navButton {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    color: gray; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navButton:hover {
+    color: green; 
+    background-color: #e4e4e4;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .actionButton {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: white; 
+    border: 2px solid green; 
+    color: green; 
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .actionButton:hover {
+    background-color: green; 
+    color: white; 
+  }
+  
+  .infoIcon {
+    color: green;
+    font-size: 24px;
+    background-color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  
+  .ul{
+    display: flex;
+    gap: 20px;
+  }
