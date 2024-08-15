@@ -53,6 +53,41 @@ yarn install
 ### 4. Run the Development Server
 
 Start the development server:
+Follow the steps below to run the application on your local machine:
+
+### 1. Clone the Repository
+
+First, clone the repository to your local machine using the following command:
+
+bash
+git clone https://github.com/Shoaib2612/Thinkjs-Frontend-engineer-Assignment.git
+
+
+### 2. Navigate to the Project Directory
+
+Move into the project directory:
+
+bash
+cd 
+
+
+### 3. Install Dependencies
+
+Install the required dependencies using npm or yarn:
+
+bash
+npm install
+
+
+Or if you prefer using yarn:
+
+bash
+yarn install
+
+
+### 4. Run the Development Server
+
+Start the development server:
 
 bash
 npm run dev
@@ -61,9 +96,48 @@ npm run dev
 Or if you are using yarn:
 
 bash
+
+
+Or if you are using yarn:
+
+bash
 yarn dev
 
 
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application in action.
+
+### 5. Build the Application for Production
+
+To build the application for production, run:
+
+bash
+npm run build
+
+
+Or with yarn:
+
+bash
+yarn build
+
+
+This will create an optimized production build of your application in the .next folder.
+
+### 6. Start the Production Server
+
+After building the application, you can start the production server with:
+
+bash
+npm start
+
+
+Or with yarn:
+
+bash
+yarn start
+
+
+The application will be available at [http://localhost:3000](http://localhost:3000).
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the application in action.
 
 ### 5. Build the Application for Production
