@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Application with Material-UI
+
+This project is a Next.js application that replicates the provided design and includes star ratings with different values using Material-UI.
+
+## Features
+
+- Built using Next.js and Material-UI.
+- Replication of the provided design.
+- Display of star ratings with varying values.
+
+
+## Requirements
+
+To run this application on your local machine, you need to have the following installed:
+
+- Node.js (version 14.x or above)
+- npm or yarn
 
 ## Getting Started
 
-First, run the development server:
+Follow the steps below to run the application on your local machine:
 
-```bash
+### 1. Clone the Repository
+
+First, clone the repository to your local machine using the following command:
+
+bash
+git clone https://github.com/Shoaib2612/Thinkjs-Frontend-engineer-Assignment.git
+
+
+### 2. Navigate to the Project Directory
+
+Move into the project directory:
+
+bash
+cd 
+
+
+### 3. Install Dependencies
+
+Install the required dependencies using npm or yarn:
+
+bash
+npm install
+
+
+Or if you prefer using yarn:
+
+bash
+yarn install
+
+
+### 4. Run the Development Server
+
+Start the development server:
+
+bash
 npm run dev
-# or
+
+
+Or if you are using yarn:
+
+bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application in action.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 5. Build the Application for Production
 
-## Learn More
+To build the application for production, run:
 
-To learn more about Next.js, take a look at the following resources:
+bash
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Or with yarn:
 
-## Deploy on Vercel
+bash
+yarn build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This will create an optimized production build of your application in the .next folder.
+
+### 6. Start the Production Server
+
+After building the application, you can start the production server with:
+
+bash
+npm start
+
+
+Or with yarn:
+
+bash
+yarn start
+
+
+The application will be available at [http://localhost:3000](http://localhost:3000).
+
+## Project Structure
+
+- *pages/*: Contains the index.js (main file).
+- *components/*: Contains the reusable components used in the application.
+- *public/*: Static assets such as images, fonts, etc.
+- *styles/*: Global CSS files and any custom styling.
+
+## Dependencies
+
+This project uses the following major dependencies:
+
+- *Next.js*: The React framework for production.
+- *Material-UI*: A popular React UI framework.
+
+## Customization
+
+If you need to make changes to the project, you can do so by editing the files in the appropriate directories. After making changes, follow the same steps to run the application locally.
+
+## Troubleshooting
+
+- Ensure that you have the correct version of Node.js installed.
+- If you encounter any issues, try deleting the node_modules folder and package-lock.json or yarn.lock file, then re-running npm install or yarn install.
+
+## Conclusion
+
+Thank you for using this application! If you have any questions or need further assistance, feel free to reach out.

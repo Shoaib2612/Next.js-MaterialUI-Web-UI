@@ -1,14 +1,16 @@
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 15px 15px;
     background-color: white;
     margin-top: 0;
+    background-color: #f7f6f6ec;
   }
   
   .left {
     display: flex;
-    align-items: center;
+    align-items:center;
+    margin-left: 0;
   }
   
   .navButton {
@@ -22,7 +24,17 @@
     cursor: pointer;
     transition: color 0.3s ease;
   }
-  
+  .navButton1 {
+    margin-right: 20px;
+    padding: 10px 23px;
+    background: rgb(228, 226, 226);
+    border: none;
+    border-radius: 10px;
+    color: green; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
   .navButton:hover {
     color: green; 
     background-color: #e4e4e4;
@@ -39,6 +51,17 @@
     background-color: white; 
     border: 2px solid green; 
     color: green; 
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .actionButton2 {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: green; 
+    border: 2px solid green; 
+    color: white; 
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
@@ -61,5 +84,5 @@
   
   .ul{
     display: flex;
-    gap: 20px;
+    gap: 10px;
   }
