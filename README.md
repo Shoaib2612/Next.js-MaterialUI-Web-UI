@@ -49,11 +49,19 @@ Or if you prefer using yarn:
 bash
 yarn install
 
-
 ### 4. Run the Development Server
 
 Start the development server:
 Follow the steps below to run the application on your local machine:
+
+### 5. If any errors
+
+If you face any errors regarding material UI. Install material UI by following commands
+
+npm install @mui/material @emotion/react @emotion/styled
+
+npm install @mui/icons-material
+
 
 ### 1. Clone the Repository
 
